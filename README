@@ -8,3 +8,22 @@ function main() {
 }
 
 
+## Segundo proyecto
+
+function main() {
+    var depth = parseInt(readLine(), 10);
+    //tu código va aquí
+    
+    var dia = 0;
+    var total = 0;
+    while(total<depth){
+        dia = dia + 1;
+        total = total + 7;
+        if(total >=depth){
+            console.log(dia);
+            break;
+        }
+        total = total - 2;
+    }
+}
+
