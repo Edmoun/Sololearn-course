@@ -53,3 +53,42 @@ var a = new contact("David", 12345);
 var b = new contact("Amy", 987654321)
 a.print();
 b.print();
+
+Quinto proyecto
+
+
+function main() {
+    var aumentar = parseInt(readLine(), 10);
+    var precio = [98.99, 15.2, 20, 1026];
+    //your code goes here
+    for (i = 0; i < precio.length; i++) {
+        precio[i] += aumentar;
+    }
+
+    console.log(precio);
+}
+
+Sexto proyecto
+
+class Add {
+  constructor(...words) {
+      this.words = words;
+  }
+  //your code goes here
+  print(){
+      let z="";
+      for(x of this.words){
+           z=z+"$"+x;
+      }
+      console.log(z + "$");
+      
+  }
+}
+
+
+var x = new Add("hehe", "hoho", "haha", "hihi", "huhu");
+var y = new Add("this", "is", "awesome");
+var z = new Add("lorem", "ipsum", "dolor", "sit", "amet", "consectetur", "adipiscing", "elit");
+x.print();
+y.print();
+z.print();
